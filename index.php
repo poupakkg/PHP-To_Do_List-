@@ -5,7 +5,7 @@ if ( !isset( $_SESSION[ 'TO_DO_LIST' ]))
     $_SESSION[ 'TO_DO_LIST' ] = array();
 }
 
-array_push ( $_SESSION['TO_DO_LIST'], $GET['MAY_2020'] );
+array_push ( $_SESSION['TO_DO_LIST'], $_GET['MAY_2020'] );
 
 $message = 'Welcome back Poupak to make your new list';
 ?><!DOCTYPE html>
